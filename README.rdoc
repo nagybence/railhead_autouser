@@ -1,0 +1,30 @@
+= RailheadAutoUser
+
+RailheadAutoUser is a Ruby on Rails plugin that automatically adds current_user to models.
+
+== Installation
+
+Installation is available as gem (recommended):
+
+  config.gem 'nagybence-railhead_autouser', :lib => 'railhead_autouser', :source => 'http://gems.github.com'
+
+Or as Rails plugin:
+
+  $ ruby script/plugin install git://github.com/nagybence/railhead_autouser.git
+
+== Usage
+
+Setup user in your migration:
+
+  create_table :table_name do |f|
+    f.references :user
+    ...
+  end
+
+Add the following line to your controller:
+
+  auto_user
+
+== License
+
+Copyright (c) 2008-2009 Bence Nagy (nagybence@tipogral.hu), released under the MIT license.
