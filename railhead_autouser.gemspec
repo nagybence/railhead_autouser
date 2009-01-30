@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "railhead_autouser"
-  s.version  = "0.1.1"
+  s.version  = "0.1.2"
   s.date     = "2009-01-28"
   s.summary  = "RailheadAutoUser is a Ruby on Rails plugin that automatically adds current_user to models."
   s.email    = "nagybence@tipogral.hu"
