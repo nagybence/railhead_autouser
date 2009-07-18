@@ -15,7 +15,7 @@ module RailheadAutoUserController
 end
 
 class RailheadAutoUserSweeper < ActionController::Caching::Sweeper
-  def before_save(record)
+  def before_validation(record)
     record.user_id = current_user.id if current_user and record.respond_to?(:user_id) and record.new_record? and record.user_id.nil?
   end
 end
