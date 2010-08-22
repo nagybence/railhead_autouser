@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary  = "RailheadAutoUser is a Ruby on Rails plugin that automatically adds current_user to models."
   s.email    = "nagybence@tipogral.hu"
   s.homepage = "http://github.com/nagybence/railhead_autouser"
-  s.description = "RailheadAutoUser is a Ruby on Rails plugin that automatically adds current_user to modelsk."
+  s.description = "RailheadAutoUser is a Ruby on Rails plugin that automatically adds current_user to models."
   s.has_rdoc = true
   s.authors  = ["Bence Nagy"]
   s.files    = ["MIT-LICENSE",
